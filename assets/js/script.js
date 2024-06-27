@@ -5,7 +5,7 @@ function Send() {
 
     Swal.fire({
         title: 'Informasi Form',
-        html: 'Nama: ' + nama + '<br>Email: ' + email + '<br>Comment: ' + comment,
+        html: 'Nama: ' + nama + '<br>Email: ' + email + '<br>Masukkan: ' + comment,
         icon: 'info',
         confirmButtonText: 'OK'
     }).then(() => {
