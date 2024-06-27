@@ -44,7 +44,7 @@
     height: 100%;
     background-image: url("https://www.uniqlo.com/jp/ja/contents/feature/lifewear-collection/common_24ss/img/t-shirts/w_pickup2_model_pc.jpg");
     background-size: cover;
-    opacity: 0.5; 
+    opacity: 0.3; 
     z-index: -1; 
   }
   .deskripsi {
