@@ -151,4 +151,11 @@ p.element {
     font-size: 15px;
     text-align: left;
 }
+/*.center-image {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  padding-right: 0;
+}*/
+
 }
