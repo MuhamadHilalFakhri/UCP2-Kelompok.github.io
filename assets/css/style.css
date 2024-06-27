@@ -1,0 +1,127 @@
+/* NAVBAR */
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
+  color: grey;
+}
+.nav-link:focus,
+.nav-link:active {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+/* HEADER 1 */
+.header1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3; /* Opacity untuk membuat background menjadi samar */
+}
+
+.deskripsi {
+  position: relative;
+  z-index: 1;
+  margin: 60px 150px 0px 150px; /* Margin disesuaikan untuk layar kecil */
+}
+
+.btn {
+  border-radius: 23px;
+  width: 180px;
+  height: 40px;
+  margin-top: 15px;
+  line-height: 20px;
+}
+
+/* HEADER 2 */
+.row {
+  padding-top: 50px; /* Padding atas disesuaikan untuk layar kecil */
+  padding-bottom: 50px; /* Padding bawah disesuaikan untuk layar kecil */
+}
+.desk {
+  text-align: left;
+}
+
+.desk2 {
+  text-align: center;
+  font-style: italic;
+  padding-top: 20px; /* Padding atas disesuaikan untuk layar kecil */
+  padding-bottom: 20px; /* Padding bawah disesuaikan untuk layar kecil */
+}
+
+.desk3 {
+  background-color: rgb(237, 237, 237);
+}
+
+.deskripsi3 {
+  text-align: center;
+  margin: 0px 20px 0px 20px; /* Margin disesuaikan untuk layar kecil */
+  font-size: 15px;
+  padding-top: 30px; /* Padding atas disesuaikan untuk layar kecil */
+  padding-bottom: 50px; /* Padding bawah disesuaikan untuk layar kecil */
+}
+
+/* FOOTER */
+.hac a{
+ color: black;
+ font-size: large;
+}
+.contact, .hac {
+  display: flex;
+  flex-direction: column;
+}
+.contact a,
+.social a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: black; /* Warna teks tautan */
+}
+
+.contact a:hover {
+  color: grey; /* Warna teks tautan saat dihover */
+}
+
+.social {
+  font-size: 30px;
+}
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-x-twitter:hover {
+  color: #568096; /* Warna saat ikon dihover */
+}
+
+@media (max-width: 992px) {
+  .header::before {
+    background-size: contain; /* Agar gambar menyesuaikan dengan kontainer tanpa dipotong */
+  }
+  .header1 {
+    text-align: center;
+  }
+  .deskripsi {
+    margin: 60px 20px 0px 20px; /* Mengurangi margin untuk layar kecil */
+  }
+  .header2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .row {
+    padding-top: 20px;
+    padding-bottom: 50px; /* Padding bawah disesuaikan untuk layar kecil */
+  }
+  .logo-h2 {
+    width: auto;
+    height: 100%;
+  }
+}

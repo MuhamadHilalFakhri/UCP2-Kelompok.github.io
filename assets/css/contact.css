@@ -1,0 +1,224 @@
+/* NAVBAR */
+.navbar {
+    background-color: #343a40; 
+  }
+  .navbar-brand img {
+    width: 50px; 
+  }
+  .navbar-toggler {
+    background-color: #fff; 
+  }
+  .navbar-nav {
+    margin: auto; 
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; 
+  }
+  .nav-link:hover {
+    color: grey; 
+  }
+  .nav-link:focus,
+  .nav-link:active {
+    text-decoration: underline;
+    color: aliceblue; 
+  }
+  
+  /* HEADER 1 */
+  .header1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 775px; 
+  }
+  .header1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://acc-media-assets.s3.ap-southeast-1.amazonaws.com/hm_id/vmd/24/06/W24-Kids-The-Summer-Shop-Bhs.jpg");
+    background-size: cover;
+    opacity: 0.5; 
+    z-index: -1; 
+  }
+  .deskripsi {
+    position: relative;
+    padding-bottom: 40px;
+    z-index: 1;
+    margin: 60px 250px 0px 250px; 
+  }
+  .deskripsi p {
+    padding-top: 20px;
+  }
+  
+  /* FORM */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    margin: auto; /* agar horizontal*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .group {
+    position: relative;
+    margin-bottom: 20px; 
+  }
+  .form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  .form .group input:placeholder-shown + label,
+  .form .group textarea:placeholder-shown + label {
+    top: 10px;
+    background-color: transparent;
+  }
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #3366cc;
+  }
+  .form .group input:focus + label,
+  .form .group textarea:focus + label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #3366cc;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .form .group textarea {
+    resize: none;
+    height: 100px;
+  }
+  .form button {
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%; 
+    max-width: 200px; 
+  }
+  .form button:hover {
+    background-color: #27408b;
+  }
+  
+  /* CONTACT SECTION */
+  .Kontak {
+    background-color: rgb(232, 233, 233);
+    padding: 50px 0; 
+  }
+  .desk {
+    text-align: left;
+    margin-right: 100px;
+  }
+  .desk p {
+    padding-top: 40px;
+  }
+  .email {
+    padding-top: 30px;
+  }
+  .desk a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #f8f9fa; 
+    padding: 30px 0; 
+  }
+  .hac a {
+    color: black;
+    font-size: large;
+  }
+  .contact,
+  .hac {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact a,
+  .social a {
+    text-decoration: none; 
+    color: black; 
+    margin-bottom: 10px; 
+  }
+  .contact a:hover {
+    color: grey; 
+  }
+  .fa-instagram:hover,
+  .fa-facebook:hover,
+  .fa-x-twitter:hover {
+    color: #568096; /* Warna saat ikon dihover */
+}
+  .social {
+    font-size: 30px;
+  }
+  .row {
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 992px) {
+    .header1 {
+      height: 50vh; 
+      padding-bottom: 900px;
+    }
+    .header1::before {
+      background-size: contain; /* Agar gambar menyesuaikan dengan kontainer tanpa dipotong */
+    }
+    .deskripsi {
+      margin: 60px 20px 0px 20px; /* Mengurangi margin untuk layar kecil */
+    }
+    .row {
+      padding-top: 20px;
+    }
+    .card {
+      width: 100%; 
+      max-width: 350px; 
+    }
+    .gmaps iframe {
+        width: 100%; 
+        max-width: 100%; 
+        height: 300px; 
+      }
+  }
+  
