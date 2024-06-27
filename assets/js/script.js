@@ -8,8 +8,14 @@ function Send() {
         html: 'Nama: ' + nama + '<br>Email: ' + email + '<br>Comment: ' + comment,
         icon: 'info',
         confirmButtonText: 'OK'
+    }).then(() => {
+        // Kosongkan nilai input setelah pesan Swal ditutup
+        document.getElementById("nama").value = '';
+        document.getElementById("email").value = '';
+        document.getElementById("comment").value = '';
     });
 }
+
 // menggunakan typed.js 
 var typed = new Typed('.element', {
     strings: ["Dapatkan penawaran terbaik di Summer Sale 2024! Nikmati harga yang sangat murah untuk berbagai produk pilihan.",
