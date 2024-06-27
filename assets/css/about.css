@@ -74,7 +74,7 @@
   font-size: 22px;
 }
 
-.desk{
+.desk , .element{
   text-align: left;
 }
 /* FOOTER */
