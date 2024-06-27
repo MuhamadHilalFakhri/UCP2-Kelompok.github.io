@@ -1,0 +1,5 @@
+1. Adam Hanafi Putra (129) 
+2. Muhammad Hilal Fakhri (151) 
+3. Alfandi Alamshach (152) 
+4. Muhammad Arif Fajri (171) 
+5. Muhammad Agus Kurniawan (202)
