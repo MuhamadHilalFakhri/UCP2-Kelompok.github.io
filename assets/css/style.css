@@ -31,7 +31,11 @@
   z-index: -1;
   opacity: 0.3; /* Opacity untuk membuat background menjadi samar */
 }
-
+.text-center{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 .deskripsi {
   position: relative;
   z-index: 1;
@@ -45,6 +49,7 @@
   margin-top: 15px;
   line-height: 20px;
 }
+
 
 /* HEADER 2 */
 .row {

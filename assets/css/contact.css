@@ -25,6 +25,7 @@
     color: aliceblue; 
   }
   
+  
   /* HEADER 1 */
   .header1 {
     position: relative;
@@ -55,6 +56,11 @@
   }
   .deskripsi p {
     padding-top: 20px;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   }
   
   /* FORM */
@@ -150,10 +156,14 @@
     margin-right: 100px;
   }
   .desk p {
-    padding-top: 40px;
+    padding-top: 10px;
   }
   .email {
     padding-top: 30px;
+  }
+  .desk h3 ,h2{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   }
   .desk a {
     color: black;
